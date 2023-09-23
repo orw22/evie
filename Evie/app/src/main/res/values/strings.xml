@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Evie</string>
+
+    <!--    GENERIC -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="next">Next</string>
+    <string name="favourite">Favourite</string>
+    <string name="soc">State of charge (%)</string>
+    <string name="back">Back</string>
+    <string name="hello">Hello</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="full_name">Full name</string>
+    <string name="confirm">Confirm</string>
+    <string name="log_out">Log out</string>
+    <string name="delete_account">Delete account</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="create_account">Create an account</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">Are you sure?</string>
+
+    <!--    PAGE-SPECIFIC -->
+    <string name="car_title">Your vehicle</string>
+    <string name="car_subtitle">We need to know your vehicle so that we can show relevant chargers on the map.</string>
+    <string name="car_make_prompt">Make</string>
+    <string name="car_model_prompt">Model</string>
+    <string name="charger_img_description">Charger</string>
+    <string name="charger_directions">Directions</string>
+    <string name="charger_estimate_cost">Estimate cost</string>
+    <string name="cost_estimator_label">Your estimated cost</string>
+    <string name="cost_estimator_target_charge">Target battery level</string>
+    <string name="cost_estimator_result">£0.00</string>
+    <string name="create_account_btn_label">Create account</string>
+    <string name="create_route_title">The world awaits…</string>
+    <string name="create_route_start">Starting point</string>
+    <string name="create_route_destination">Destination</string>
+    <string name="create_route_waypoint">Waypoint</string>
+    <string name="create_route_btn_start_label">+ Add starting point</string>
+    <string name="create_route_btn_destination_label">+ Add destination</string>
+    <string name="create_route_btn_waypoint_label">+ Add waypoint</string>
+    <string name="create_route_charge_speeds">Desired charging speeds</string>
+    <string name="charge_speed_slow">Slow</string>
+    <string name="charge_speed_fast">Fast</string>
+    <string name="create_route_btn_label">Generate route</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="home_subtitle">What would you like to do?</string>
+    <string name="home_parking_spot">Find a parking spot</string>
+    <string name="home_plan_route">Plan a route</string>
+    <string name="home_saved_routes">Saved routes</string>
+    <string name="home_find_charger">Find a charger</string>
+    <string name="home_favourites">Favourites</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="maps_filters">Open filters</string>
+    <string name="maps_search_hint">Search nearby chargers</string>
+    <string name="name_title">Your name</string>
+    <string name="name_subtitle">What would you like us to call you?</string>
+    <string name="networks_title">Your charging networks</string>
+    <string name="networks_subtitle">So that we can further optimise Evie for you, please select the UK public charging networks that you are a member of.</string>
+    <string name="networks_continue">Continue to map</string>
+    <string name="profile_car">Car</string>
+    <string name="profile_networks">Charging networks</string>
+    <string name="route_map_save_route">Save route</string>
+    <string name="route_map_route_name">What would you like to name this route?</string>
+    <string name="routes_title">My routes</string>
+    <string name="routes_no_saved_routes">No saved routes</string>
+    <string name="filters">Filters</string>
+    <string name="min_ports">Min number of ports</string>
+    <string name="max_cost_per_kwh">Max cost per kWh (£)</string>
+    <string name="filter_charge_speeds">Charging speeds</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="terms_and_conditions_list">
+        1. User Account: To use the electric vehicle charging mobile app, users must create an account. They are responsible for maintaining the confidentiality of their account information and for all activities that occur under their account.\n\n
+        2. Payment and Fees: Users of the mobile app agree to pay all fees and charges associated with using the app, including charging fees, transaction fees, and any other charges. The payment process must be secure and reliable.\n\n
+        3. Charging Station Availability: The mobile app provides users with real-time information on the availability of charging stations. However, the app does not guarantee that a charging station will be available at all times. The app is not responsible for any delays or inconveniences caused by the unavailability of charging stations.\n\n
+        4. Use of Information: The app collects and uses users\' personal information, including their name, email address, and location. This information is used to provide charging services and improve the user experience. The app will not share or sell users\' personal information to third parties without their consent.\n\n
+        5. Prohibited Activities: Users of the app are not allowed to engage in any activities that violate applicable laws, infringe on the rights of others, or interfere with the operation of the app or the charging stations.\n\n
+        6. Termination: The app reserves the right to terminate a user\'s account at any time if they violate these terms and conditions or if their conduct is deemed inappropriate.\n\n
+        7. Liability: The app is not responsible for any damages, losses, or expenses incurred by users while using the app or charging stations. Users are responsible for their own safety and should take necessary precautions while using the app and charging stations.\n\n
+        8. Changes to Terms and Conditions: The app reserves the right to modify these terms and conditions at any time without prior notice. Users are responsible for reviewing the terms and conditions periodically and continuing to use the app constitutes acceptance of any changes.\n\n
+        By using the electric vehicle charging mobile app, users agree to abide by these terms and conditions.
+    </string>
+    <string name="privacy_policy_text">
+We take your privacy seriously. Our electric vehicle charging mobile app collects and uses your personal information only for the purpose of providing and improving our services. We may collect your name, email address, phone number, location information, usage information, and payment information if you choose to pay through our app. We do not share your personal information with third parties except for service providers, business partners, legal compliance, or in the case of a merger or acquisition. You can opt-out of marketing communications and we implement reasonable measures to protect your personal information. We retain your information only as long as necessary and our app is not intended for use by children under 13. By using our app, you agree to this privacy policy.
+    </string>
+    <string name="terms_and_conditions_disclaimer">Disclaimer: These Terms and Conditions were generated by ChatGPT and are not suitable for production use.</string>
+    <string name="privacy_disclaimer">Disclaimer: This Privacy Policy was generated by ChatGPT and is not suitable for production use.</string>
+</resources>

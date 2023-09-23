@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="Theme.Evie" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/dark_blue</item>
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_gray</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorError">@color/red</item>
+        <item name="colorTertiary">@color/light_green</item>
+        <item name="colorOnTertiary">@color/dark_blue</item>
+        <item name="colorOutline">@color/dark_blue</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/dark_blue</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/dark_blue</item>
+        <item name="materialButtonStyle">@style/AppButton</item>
+
+        <item name="fontFamily">@font/lora</item>
+        <item name="android:fontFamily">@font/lora</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/AppShapeAppearance.LargeComponent</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Evie.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Evie.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Evie.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Evie.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Evie.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Evie.Headline6</item>
+
+        <item name="bottomNavigationStyle">@style/AppBottomNavigation</item>
+        <!--        <item name="actionBarStyle">@style/AppActionBar</item>-->
+        <item name="floatingActionButtonStyle">@style/AppFloatingActionButton</item>
+    </style>
+</resources>

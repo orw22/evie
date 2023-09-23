@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".routes.CreateRouteActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_route_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLabelStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_route_start"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelStart" />
+
+        <ImageButton
+            android:id="@+id/btnEditStart"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Edit starting point"
+            android:src="@drawable/ic_edit"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/tvStart"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelStart" />
+
+        <Button
+            android:id="@+id/btnAddStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/create_route_btn_start_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelStart" />
+
+        <TextView
+            android:id="@+id/tvLabelDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_route_destination"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddStart" />
+
+        <TextView
+            android:id="@+id/tvDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelDestination" />
+
+        <ImageButton
+            android:id="@+id/btnEditDestination"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Edit destination"
+            android:src="@drawable/ic_edit"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/tvDestination"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelDestination" />
+
+        <Button
+            android:id="@+id/btnAddDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/create_route_btn_destination_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelDestination" />
+
+        <ImageButton
+            android:id="@+id/btnEditWaypoint"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Edit waypoint"
+            android:src="@drawable/ic_edit"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/tvWaypoint"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelWaypoint" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteWaypoint"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Delete waypoint"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/btnEditWaypoint"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelWaypoint" />
+
+        <Button
+            android:id="@+id/btnAddWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/create_route_btn_waypoint_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelWaypoint" />
+
+        <TextView
+            android:id="@+id/tvLabelWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_route_waypoint"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddDestination" />
+
+        <TextView
+            android:id="@+id/tvWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelWaypoint" />
+
+        <TextView
+            android:id="@+id/tvLabelSoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/soc"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddWaypoint" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderSOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:stepSize="1"
+            android:value="50"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelSoC" />
+
+        <TextView
+            android:id="@+id/tvLabelChargeSpeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_route_charge_speeds"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sliderSOC" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbSpeedSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/charge_speed_slow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelChargeSpeeds" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbSpeedFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:checked="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/charge_speed_fast"
+            app:layout_constraintStart_toEndOf="@+id/cbSpeedSlow"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelChargeSpeeds" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/create_route_btn_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbSpeedFast" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
